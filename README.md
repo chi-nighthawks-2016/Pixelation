@@ -1,2 +1,2 @@
-# Pixelation
-B&amp;M Kyrie and Steph
+# Sinatra-Skeleton
+Including Bcrypt, Faker and Session Helper Methods
