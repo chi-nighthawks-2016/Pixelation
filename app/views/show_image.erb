@@ -1,7 +1,9 @@
 <div class="return-uploaded-image">
-  <h1>See Image</h1>
-  <img src= <%= @view_path %>  width="1000" />
+  <h1>Your Chosen Image</h1>
+  <img src=<%= "#{@picture_url}" %>  width="1000" />
 </div>
-<form method="POST" action="/photos">
+
+<form class="pixelate-button" method="POST" action="/mosaic/pixelate">
+  <input type="hidden" name="picture_url" value=<%= "#{@picture_url}" %> />
   <input type="submit" value="PIXELATE">
 </form>
