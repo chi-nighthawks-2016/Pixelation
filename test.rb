@@ -15,14 +15,4 @@ response = Net::HTTP.post_form(uri, {"token" => "GrbW4LW2fYuDaQRS7cyY3Td1PUsmYny
 response.body
 
 p JSON.parse(response.body)["mosaic_url"]
-# p response.body.split('\\')
-# p response.body.inspect
-# p response.body[0]
-# p response.body[1]
-# p response.body[2]
-# p response.body[3]
-# p response.body[4]
-# p response.body[5]
-# p response.body[6]
 
-# p response.body[0..-1]
